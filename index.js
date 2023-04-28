@@ -15,7 +15,7 @@ app.use('/auth', userRouter);
 
 mongoose.set('strictQuery', true);
 mongoose.connect(
-  "mongodb+srv://tonyekim:otoly1992@assessment.atdpcmx.mongodb.net/assessment?retryWrites=true&w=majority",
+  "mongodb+srv://tonyekim:otoly1992@assessment.atdpcmx.mongodb.net/?retryWrites=true&w=majority",
   
 );
 
